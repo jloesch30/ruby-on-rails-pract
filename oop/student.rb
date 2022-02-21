@@ -1,7 +1,7 @@
 """
 Without attribute acessors
 """
-
+require_relative 'crud'
 
 class Student
      # instance variable
@@ -25,8 +25,3 @@ class Student
         "First name: #{@first_name}"
      end
 end
-
-josh = Student.new
-# josh.first_name("Josh") THIS IS NOT A SETTER
-josh.first_name = "Josh"
-puts josh.first_name
